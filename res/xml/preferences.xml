@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android" >
+    <PreferenceCategory android:title="@string/prefDisplay">
+        <EditTextPreference 
+            android:key="userName"
+            android:title="Your friendly name"
+            android:dialogTitle="Enter your friendly name"
+            android:positiveButtonText="Validate"
+            android:negativeButtonText="Cancel"/>
+        
+        <CheckBoxPreference 
+            android:key="popUpTrue"
+            android:title="Result in pop-up"
+            android:summaryOn="Result will be displayed in a pop-up"
+            android:summaryOff="Result will be displayed on screen"
+            android:defaultValue="false"/>
+        
+    </PreferenceCategory>
+
+</PreferenceScreen>
